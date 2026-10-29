@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #243447;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: greenyellow;
+}
+
+main {
+    width: 85%;
+    margin: 20px auto;
+}
+
+.content {
+    width: 65%;
+    float: left;
+}
+
+.article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-left: 4px solid #243447;
+}
+
+.article small {
+    color: gray;
+}
+
+.article h2 {
+    margin-top: 10px;
+}
+
+.article h2 a {
+    color: #243447;
+    text-decoration: none;
+}
+
+.article h2 a:hover {
+    color: orange;
+}
+
+.article p {
+    color: #555;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #243447;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.read-more:hover {
+    background-color: greenyellow;
+}
+
+table {
+    width: 100%;
+    margin: 15px 0;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #243447;
+    color: white;
+}
+
+#sidebar {
+    width: 25%;
+    float: right;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#sidebar h2,
+#sidebar h3 {
+    color: #243447;
+}
+
+#sidebar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+}
+
+#sidebar a {
+    color: #276678;
+    text-decoration: none;
+}
+
+#sidebar a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+#sidebar ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #243447;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    clear: both;
+}
+
+footer p {
+    margin: 5px;
+}
+@media (max-width: 768px) {
+    .content, #sidebar { width: 100%; float: none; }
+}
+
+
